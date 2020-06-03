@@ -16,7 +16,7 @@ const Welcome = () => {
         <Text style={{fontWeight: 'bold'}}>#letstartthisfashionrevolution</Text>
 
       </View>
-      <Button style={styles.btn} color="rgb(77,77,77)" onPress={() => Alert.alert('No action (yet!)')} title="Next"/>
+      {/* <Button style={styles.btn} color="rgb(77,77,77)" onPress={() => Alert.alert('No action (yet!)')} title="Next"/> */}
     </ImageBackground>
     </View>
   )
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    fontWeight: '400'
+    fontWeight: '400',
   },
   btn: {
     color: 'white',
@@ -55,7 +55,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(222,222,222, 0.6)',
     flex: 0.5,
     padding: 15,
-    width: 350,
     bottom: 0,
     borderRadius: 15
   },
